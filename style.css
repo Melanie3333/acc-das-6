@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+   text-align: center;
+}
+.container{
+   height: 150px;
+   width: 270px;
+   border: 2px solid red;
+   border-radius: 25px;
+   margin-top: 7px;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+.d1 {
+   width: 20px;
+   height: 20px;
+   position: absolute;
+   margin-top: 15px;
+   left: 257px ;
+   background-color: red;
+   border-color: red;
+}
+.text1{
+   color: white;
+   text-align: center;
+}
+.form{
+    padding: 10px;
+}
